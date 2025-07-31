@@ -793,13 +793,13 @@ body {
         width: 76px !important;
     }
 
-    .girlfriend-title {
-  font-size: 1.6rem;        /* Reduce size enough to fit */
-  white-space: nowrap;      /* Prevent text from wrapping */
-  overflow: hidden;         /* Hide anything spilling over */
-  text-align: center;       /* Optional: center-align */
-  margin: 20px auto;        /* Optional spacing */
-}
+     .girlfriend-title {
+       font-size: 1.6rem;        /* Reduce size enough to fit */
+       white-space: nowrap;      /* Prevent text from wrapping */
+       overflow: hidden;         /* Hide anything spilling over */
+       text-align: center;       /* Optional: center-align */
+       margin: 20px auto;        /* Optional spacing */
+    }
 
 
 }
