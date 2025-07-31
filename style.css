@@ -794,11 +794,11 @@ body {
     }
 
     .girlfriend-title {
-  font-size: 1.8rem;
-  white-space: nowrap;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
+  font-size: 1.6rem;        /* Reduce size enough to fit */
+  white-space: nowrap;      /* Prevent text from wrapping */
+  overflow: hidden;         /* Hide anything spilling over */
+  text-align: center;       /* Optional: center-align */
+  margin: 20px auto;        /* Optional spacing */
 }
 
 
